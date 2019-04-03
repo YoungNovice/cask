@@ -168,7 +168,7 @@ Slots:
 
 (defvar cask-source-mapping
   '((gnu          . "https://elpa.gnu.org/packages/")
-    (melpa        . "https://melpa.org/packages/")
+    (melpa        . "http://elpa.emacs-china.org/melpa/")
     (melpa-stable . "https://stable.melpa.org/packages/")
     (marmalade    . "https://marmalade-repo.org/packages/")
     (SC           . "http://joseito.republika.pl/sunrise-commander/")
