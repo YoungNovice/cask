@@ -167,12 +167,14 @@ Slots:
 (defmethod package-build--get-commit ((rcp package-directory-recipe)))
 
 (defvar cask-source-mapping
-  '((gnu          . "https://elpa.gnu.org/packages/")
+  '(
+    ;; (gnu          . "https://elpa.gnu.org/packages/")
     (melpa        . "http://elpa.emacs-china.org/melpa/")
-    (melpa-stable . "https://stable.melpa.org/packages/")
-    (marmalade    . "https://marmalade-repo.org/packages/")
-    (SC           . "http://joseito.republika.pl/sunrise-commander/")
-    (org          . "http://orgmode.org/elpa/"))
+    ;; (melpa-stable . "https://stable.melpa.org/packages/")
+    ;; (marmalade    . "https://marmalade-repo.org/packages/")
+    ;; (SC           . "http://joseito.republika.pl/sunrise-commander/")
+    ;; (org          . "http://orgmode.org/elpa/")
+    )
   "Mapping of source name and url.")
 
 (defconst cask-filename "Cask"

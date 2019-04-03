@@ -148,7 +148,7 @@ Git is available in `exec-path'."
         (progn
           (epl-change-package-dir cask-bootstrap-dir)
           (epl-initialize)
-          (epl-add-archive "gnu" "https://elpa.gnu.org/packages/")
+          ;; (epl-add-archive "gnu" "https://elpa.gnu.org/packages/")
           (epl-add-archive "melpa" "http://elpa.emacs-china.org/melpa/")
           (epl-refresh)
           (epl-upgrade))
